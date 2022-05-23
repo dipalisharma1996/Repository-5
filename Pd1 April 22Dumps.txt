@@ -1,0 +1,196 @@
+NO.1 Whichaspect of Apex programming is limited due to multitenancy?
+A. The number of methods in an Apex Class
+B. The number of active Apex classes
+C. The number of records processed in a loop
+D. The number of records returned from database queries
+Answer: D
+
+NO.2 A developer Edition org has five existing accounts. A developer wants to add 10 more accounts
+for ...
+The following code is executed in the Developer Console using the Executor Anonymous window:
+How many total accounts will be in the org after this code is executed?
+A. 10
+B. 15
+C. 6
+D. 5
+Answer: A
+
+NO.3 In terms of the MVC paradigm, what are two advantages of implementing the layer of a
+Salesforce application using Aura Component-based development over Visualforce? Choose 2
+answers
+A. Server-side run-timedebugging
+B. Rich component ecosystem
+C. Automatic code generation
+D. Self-contained and reusable units of an application
+Answer: B,D
+
+NO.4 Universal Containers has an order system that uses on Order Number to identify an order for
+customers service agents. Order records will be imported into Salesforce.
+How should the "Order Number field be defined in Salesforce.
+A. Lookup
+B. Indirect Lookup
+C. Direct Lookup
+D. Number with External ID
+IT Certification Guaranteed, The Easy Way!
+2
+Answer: D
+
+NO.5 A developer needs to create a custom Interface in Apex.
+Which three considerations must the developer keep in mind while developing the Apex Interface?
+Choose 3 answers
+A. A method implementation can be defined within the Apex Interface.
+B. The Apex interface class access modifier can be set to Private, Public, or Global.
+C. The Apex class must be declared using the interface keyword.
+D. New methods can be added to a public interface within a released package.
+E. A method defined In an Apex Interface cannot have an access modifier.
+Answer: A,C,E
+
+NO.6 Howshould a developer write unit tests for a private method in an Apex class?
+A. Mark the Apex class as global.
+B. Use the SeeAllData annotation.
+C. Use the TestVisible annotation.
+D. Add a test method in the Apex class.
+Answer: C
+
+NO.7 A Next Best Action strategy uses an Enhance Element that invokes an Apex method to
+determinea discount level for a Contact, based on a number of factors. What is the correct definition
+of the Apex method?
+A. @InvocableMethod
+global static ListRecommendation getLevel(List<ContactWrapper> input)
+{ /*implementation*/ }
+B. @InvocableMethod
+global RecommendationgetLevel (ContactWrapper input)
+{ /*implementation*/ }
+C. @InvocableMethod
+globalstatic List<List<Recommendation>> getLevel(List<ContactWrapper> input)
+{ /*implementation*/ }
+D. @InvocableMethod
+global List<List<Recommendation>> getLevel(List<ContactWrapper> input)
+{ /*implementation*/ }
+Answer: C
+
+NO.8 A developer is asked to create a Visualforce page that displays some Account fields as well as
+fields configured on the page layout for related Contacts.
+How should the developer implement this request?
+A. Use the <apex:include> tag.
+B. Create a controller extension.
+C. Add a method to the standard controller.
+D. Use the <apex:relatedList> tag.
+Answer: D
+
+NO.9 A developer creates a new Apex trigger with a helper class, and writes a test class that only
+exercises 95% coverage of new Apex helper class. Change Set deployment to production fails with the
+test coverage warning:
+"Test coverage of selected Apex Trigger is 0%, at least 1% test coverage is required" Whatshould the
+developer do to successfully deploy the new Apex trigger and helper class?
+A. Create a test class and methods to cover the Apex trigger
+B. Increase the test class coverage on the helper class
+C. Remove the falling test methods from the test class.
+D. Run the tests using the 'Run All Tests' method.
+Answer: A
+
+NO.10 Given the following block code: try{ List <Accounts> retrievedRecords = [SELECT Id FROM
+Account WHERE Website = null]; }catch(Exception e){ //manage exception logic } What should a
+developer do to ensure the codeexecution is disrupted if the retrievedRecordslist remains empty
+after the SOQL query?
+A. Replace the retrievedRecords variable declaration from ftount to a single Account.
+B. Check the state of the retrieveRecords variable and throw a custom exception if the variable is
+empty.
+C. Check the state of the retrievedRecords variable and use System.assert(false) if the variable is
+empty
+D. Check the state of the retrievedRecords variable and access the first element of the list if the
+variable is empty.
+Answer: C
+
+NO.11 Which annotation exposes an Apex class as a RESTful web service?
+A. @AuraEnabled
+B. @Httplnvocable
+C. @RestResource
+D. @Remote Action
+Answer: c
+
+NO.12 A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for
+an entire suite of testallowing them to test independent requirements various types of Salesforce
+Cases.
+Which approach can efficiently generate the required data for each unit test?
+A. Create a nock using the Stud API
+B. Create test data before Test.startTest() in the unittest.
+C. Add @isTest(seeAllData=true) at the start of the unit test class.
+D. Use @TestSetup with a viod method.
+Answer: D
+
+NO.13 Which three statements are true regarding custom exceptions in Apex? (Choose three.)
+A. A custom exception class cannot contain member variables or methods.
+B. A custom exception class must extend the system Exception class.
+C. A custom exception class name must end with "Exception".
+D. A custom exception class can extend other classes besides the Exception class.
+E. Acustom exception class can implement one or many interfaces.
+Answer: B,D,E
+NO.14 Which two are phases in the Salesforce Application Event propagation framework? Choose
+2 answers
+A. Default
+B. Capture
+C. Bubble
+Answer: A,c
+
+NO.15 Which standard field is required when creating a new contact record?
+A. FirstName
+B. Name
+C. LastName
+D. AccountId
+Answer: C
+
+NO.16 Which three steps allow a custom SVG to be included in a Lightning web component? Choose
+3 answers
+A. Reference the getter in the HTML template.
+B. Reference the import in the HTML template.
+C. Import the static resource and provide a getter for it in JavaScript.
+D. Upload the SVG asa static resource.
+E. Import the SVG as a content asset file.
+Answer: A,C,D
+
+NO.17 The sales management team at Universal Containers requires thatthe Lead Source field of the
+Lead record be populated when a Lead is converted.
+What should be used to ensure that a user populates the Lead Source field prior to converting a
+Lead?
+A. Process Builder
+B. workflow Rule
+C. Validation Rule
+D. Formula Field
+Answer: C
+
+NO.18 A developer must provide custom userinterfaces when users edit a Contact in either
+Salesforce Classic or Lightning Experience.
+What should the developer use to override the Contact's Edit button and provide this functionality?
+A. A Visualforce page in Salesforce Classic and a Lightning component in Lightning Experience
+IT Certification Guaranteed, The Easy Way!
+5
+
+B. A Visualforce page in Salesforce Classic and a Lightning page in Lightning Experience
+C. A Lightning component in 5alesforce Classic and a Lightning component in lightning Experience
+D. A Lightning page in Salesforce Classicand a Visualforce page in Lightning Experience
+Answer: A
+
+NO.19 A company has been adding data to Salesforce and has not done a good Job of limiting the
+creation of duplicate Lead records. The developer is considering writing an Apex process to identify
+duplicates and merge the records together.
+Which two statements are valid considerations when using merged?
+Choose 2 answers
+A. External ID fields can be used with the merge method.
+B. Merge is supported with accounts, contacts, cases, and leads.
+C. The field values on the master record are overwritten by the records being merged.
+D. The merge method allows up to three records, including the master and two additional records
+with the same sObject type, to be merged into the master record.
+Answer: B,D
+
+NO.20 A development team wants to use a deployment script lo automatically deploy lo a sandbox
+during their development cycles.
+Which two tools can they use to run a script that deploysto a sandbox?
+Choose 2 answers
+A. Change Sets
+B. Developer Console
+C. Ant Migration Tool
+D. SFDX CLI
+Answer: C,D
+IT Certification Guaranteed, The Easy Way!
+6
