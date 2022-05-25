@@ -9,7 +9,7 @@ NO.2 A developer Edition org has five existing accounts. A developer wants to ad
 for ...
 The following code is executed in the Developer Console using the Executor Anonymous window:
 How many total accounts will be in the org after this code is executed?
-A. 10
+A. 11
 B. 15
 C. 6
 D. 5
