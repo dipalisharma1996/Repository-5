@@ -22,7 +22,7 @@ A. Server-side run-timedebugging
 B. Rich component ecosystem
 C. Automatic code generation
 D. Self-contained and reusable units of an application
-Answer: B,D
+Answer: B,d
 
 NO.4 Universal Containers has an order system that uses on Order Number to identify an order for
 customers service agents. Order records will be imported into Salesforce.
