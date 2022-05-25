@@ -32,7 +32,7 @@ B. Indirect Lookup
 C. Direct Lookup
 D. Number with External ID
 IT Certification Guaranteed, The Easy Way!
-2
+3
 Answer: D
 
 NO.5 A developer needs to create a custom Interface in Apex.
