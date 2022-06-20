@@ -1,0 +1,27 @@
+public with sharing class testController {
+    public List<myObject> myobjects {get; set;}
+
+    public testController(){
+        myobjects = new List<myObject>();
+        for(Integer i = 0; i <= 5; i++){
+            myobjects.add(new myObject(i,i,false));
+        }
+    }
+
+    public class myObject {
+        public Integer height {get;set;}
+        public Integer width {get;set;}
+        public Boolean rendered {get; set;}
+
+        public myObject(Integer height, Integer width, Boolean rendered){
+            this.height = height;
+            this.width = width;
+            this.rendered = rendered;
+        }
+
+        public void renderMe(){
+            this.rendered = true;
+        }
+    }
+
+}
