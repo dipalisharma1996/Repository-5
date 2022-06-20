@@ -1,0 +1,23 @@
+public class AccountTriggerHandler {
+
+public static void sendData(List<Account> lstAcc, Map<Id, Account> mapOldAccount){
+Integer totalAccountNumUpdated = 0;
+List<Id> lstId = new List<Id>();
+for(Account objAc : lstAcc){
+lstId.add(objAc.Id);
+if(objAc.AccountNumber != mapOldAccount.get(objAc.Id).AccountNumber ){
+totalAccountNumUpdated++;
+}
+}
+send(lstId, lstAcc.size(), totalAccountNumUpdated);
+
+}
+
+@future
+public static void send( List<Id> lstId, Integer totalAccountUpdated, Integer totalAccountNumberUpdated){
+List<Account> lstAc = [Select Id from Account where Id in : lstId];
+System.debug('Total Account is updated '+ totalAccountUpdated);
+System.debug('Total Account where Account Number is updated '+ totalAccountNumberUpdated);
+
+}
+}
