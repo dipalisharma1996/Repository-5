@@ -1,0 +1,21 @@
+public class JsonParserWrapper{
+    public Integer total_count; //8
+    public boolean incomplete_results;
+    public cls_items[] items;
+    public class cls_items {
+        public Integer id; //494175074
+        public String node_id; //R_kgDOHXSDYg
+        public String name; //Repository-2
+        public String full_name; //dipalisharma1996/Repository-2
+        public String branches_url;	//https://api.github.com/repos/dipalisharma1996/Repository-2/branches{/branch}
+        public String git_commits_url;	//https://api.github.com/repos/dipalisharma1996/Repository-2/git/commits{/sha}
+        //public boolean private_p;
+        
+    }
+    
+    public static JsonParserWrapper parse(String json){
+        return (JsonParserWrapper) System.JSON.deserialize(json, JsonParserWrapper.class);
+    }
+    
+    
+}
