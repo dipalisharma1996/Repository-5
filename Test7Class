@@ -1,4 +1,0 @@
-public class Test7Class {
-    public List<Account> accList {get;set;}
-
-}
