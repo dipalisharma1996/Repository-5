@@ -1,0 +1,4 @@
+public class Test21juneClass {
+    public string test {get;set;}
+
+}
